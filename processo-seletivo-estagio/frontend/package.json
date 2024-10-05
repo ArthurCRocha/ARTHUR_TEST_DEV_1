@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^17.3.12",
+    "@angular/common": "^17.3.12",
+    "@angular/compiler": "^17.3.12",
+    "@angular/core": "^17.3.12",
+    "@angular/forms": "^17.3.12",
+    "@angular/platform-browser": "^17.3.12",
+    "@angular/platform-browser-dynamic": "^17.3.12",
+    "@angular/router": "^17.3.12",
+    "ajv": "^8.12.0",
+    "rxjs": "^6.6.7",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.14.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.10",
+    "@angular/cli": "^17.3.10",
+    "@angular/compiler-cli": "^17.3.12",
+    "@angular/language-service": "^17.3.12",
+    "@types/jasmine": "^3.7.7",
+    "@types/jasminewd2": "~2.0.9",
+    "@types/node": "~15.12.2",
+    "cypress": "^4.0.1",
+    "jasmine-core": "^3.7.1",
+    "jasmine-spec-reporter": "4.2.1",
+    "protractor": "^7.0.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.15.0",
+    "typescript": "^5.2.0"
+  }
+}
